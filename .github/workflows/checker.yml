@@ -3,7 +3,7 @@ name: Karmelita Jegyfigyelő
 on:
   schedule:
     # 15 percenként lefut (Cron formátum)
-    - cron: '*/15 * * * *'
+    - cron: '*/59 * * * *'
   workflow_dispatch: # Manuálisan is elindítható a GitHub felületéről
 
 jobs:
